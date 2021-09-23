@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        @keyframes tonext {
+        /* @keyframes tonext {
         75% {
             left: 0;
         }
@@ -19,7 +19,7 @@
         99% {
             left: 0;
         }
-        }
+        } */
 
         /* @keyframes tostart {
         75% {
@@ -100,7 +100,7 @@
         display: flex;
         overflow-x: scroll;
         counter-reset: item;
-        scroll-behavior: smooth;
+        scroll-behavior: auto;
         scroll-snap-type: x mandatory;
         }
 
@@ -130,12 +130,12 @@
         }
 
         @media (hover: hover) {
-        .carousel__snapper {
+        /* .carousel__snapper {
             animation-name: tonext, snap;
             animation-timing-function: ease;
             animation-duration: 4s;
             animation-iteration-count: infinite;
-        }
+        } */
 
         /* .carousel__slide:last-child .carousel__snapper {
             animation-name: tostart, snap;
